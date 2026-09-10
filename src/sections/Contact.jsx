@@ -9,7 +9,7 @@ function Contact() {
   return (
     <section id="contact" className="contact">
       <h2>Get in touch</h2>
-      <p>I'm down for new and exciting opportunities, feel free to reach out!</p>
+      <p>Feel free to reach out!</p>
 
       <div className="contact-links">
         {emailRevealed ? (

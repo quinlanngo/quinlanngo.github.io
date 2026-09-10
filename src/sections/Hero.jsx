@@ -7,10 +7,10 @@ function Hero() {
         <p className="hero-greeting">Hi, I'm</p>
         <h1 className="hero-name">Quinlan Ngo</h1>
         <p className="hero-tagline">
-          Software · XR · Graphics · AI/ML
+          Software · Machine Learning · Graphics · XR
         </p>
         <p className="hero-bio">
-          pls hire me :3
+          I build things that make a difference. I'm a software engineer with a passion for creating innovative solutions and exploring new technologies.
         </p>
         <div className="hero-cta">
           <a href="#projects" className="btn-primary">See my work</a>
