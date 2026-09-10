@@ -1,0 +1,55 @@
+.contact {
+  padding: 5rem 2rem;
+  text-align: center;
+  background-color: #14162b;
+  color: white;
+}
+
+.contact h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: white;
+}
+
+.contact p {
+  color: #ccc;
+  margin-bottom: 2rem;
+}
+
+.contact-links {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.contact-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 0.6rem 1.2rem;
+  border: 1px solid #555;
+  border-radius: 6px;
+  transition: background-color 0.2s ease, border-color 0.2s ease;
+}
+
+.contact-links a:hover {
+  background-color: #22223b;
+  border-color: #aa3bff;
+}
+
+.reveal-btn {
+  background: none;
+  color: white;
+  font: inherit;         /* inherits font-size/family from parent instead of browser button defaults */
+  font-weight: 500;
+  padding: 0.6rem 1.2rem;
+  border: 1px solid #555;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s ease, border-color 0.2s ease;
+}
+
+.reveal-btn:hover {
+  background-color: #22223b;
+  border-color: #aa3bff;
+}
