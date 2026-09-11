@@ -1,8 +1,10 @@
 import './Hero.css'
+import HeroCanvas from './HeroCanvas.jsx';
 
 function Hero() {
   return (
     <section id="hero">
+      <HeroCanvas />
       <div className="hero-content">
         <p className="hero-greeting">Hi, I'm</p>
         <h1 className="hero-name">Quinlan Ngo</h1>
