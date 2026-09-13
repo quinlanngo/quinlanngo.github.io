@@ -20,7 +20,9 @@ function ProjectCard({ project }) {
         ))}
       </div>
       {link && (
-        <a href={link} className="project-link">View Project →</a>
+        <a href={link} className="project-link" target="_blank" rel="noopener noreferrer">
+          View Project →
+        </a>
       )}
     </div>
   );
