@@ -1,12 +1,13 @@
 .navbar {
   display: flex;
-  justify-content: space-between;  /* logo on left, links on right */
-  align-items: center;             /* vertically centers both */
+  justify-content: space-between;  
+  align-items: center;           
   padding: 1rem 2rem;
-  background-color: #14162b;       /* match your page background, or make it slightly different to stand out */
-  position: sticky;                /* keeps navbar visible while scrolling */
+  background-color: #14162b;      
+  position: sticky;              
   top: 0;
-  z-index: 10;                     /* ensures it stays above other content */
+  z-index: 10;       
+  transition: transform 0.3s ease;           
 }
 
 .navbar-logo {
@@ -17,7 +18,7 @@
 
 .navbar-links {
   display: flex;
-  gap: 2rem;         /* spacing between links, instead of margin on each */
+  gap: 2rem;       
   align-items: center;
 }
 
@@ -25,9 +26,17 @@
   color: #d1d1d1;
   text-decoration: none;
   font-size: 1rem;
-  transition: color 0.2s ease;   /* smooth color change on hover */
+  transition: color 0.2s ease;   
 }
 
 .navbar-links a:hover {
   color: #ffffff;
+}
+
+.navbar-visible {
+  transform: translateY(0);
+}
+
+.navbar-hidden {
+  transform: translateY(-100%);
 }

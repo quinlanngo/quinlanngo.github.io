@@ -17,6 +17,7 @@
   font-size: 1.2rem;
   color: #888;
   margin-bottom: 0.75rem;
+  text-align: center;
 }
 
 .hero-name {
@@ -24,12 +25,14 @@
   font-weight: 700;
   margin: 0 0 5rem 0;
   color: white;
+  text-align: center;
 }
 
 .hero-tagline {
   font-size: 1.2rem;
   color: #888;
   margin-bottom: 3rem;
+  text-align: center;
 }
 
 .hero-bio {

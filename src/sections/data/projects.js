@@ -8,7 +8,7 @@ const projects = [
       "Deployed via Docker containers within a Linux VM for isolated, replicable testing",
     ],
     tags: ["C", "Linux", "Docker", "Network Security"],
-    link: "", // GitHub link here
+    link: "https://github.com/quinlanngo/SecureBankSoftware", 
   },
   {
     title: "3D Shader",
@@ -19,7 +19,7 @@ const projects = [
       "High-performance intersection algorithms for spheres, OBBs, cylinders, and triangle meshes",
     ],
     tags: ["C++", "Computer Graphics", "Ray Tracing"],
-    link: "",
+    link: "https://github.com/quinlanngo/3D-Shader-Basics",
   },
   {
     title: "ConductVR",
@@ -30,7 +30,7 @@ const projects = [
       "Immersive 3D soundscape in Unity with spatialized audio and environmental reverb",
     ],
     tags: ["Unity", "C#", "XR", "Audio"],
-    link: "",
+    link: "https://github.com/quinlanngo/ConductVr",
   },
   {
     title: "Emotion Detection System",
@@ -41,7 +41,7 @@ const projects = [
       "Peak F1 score of 0.835 — 18% above the BRIGHTER dataset baseline",
     ],
     tags: ["Python", "Deep Learning", "NLP"],
-    link: "",
+    link: "https://github.com/Fries2005/CMSC472_FP",
   },
   {
     title: "Higher or Lower",
@@ -52,7 +52,7 @@ const projects = [
       "High availability with seamless data sync",
     ],
     tags: ["Kotlin", "Android", "Firebase"],
-    link: "",
+    link: "https://github.com/srager/Group_Project",
   },
   {
     title: "Elements Unleashed",
@@ -63,7 +63,7 @@ const projects = [
       "Built with a team of 4 using GitHub for version control",
     ],
     tags: ["Unity", "C#", "Game Dev"],
-    link: "",
+    link: "https://github.com/quinlanngo/cmsc425game",
   },
   {
     title: "Debt and Taxes",
@@ -74,7 +74,7 @@ const projects = [
       "Balances money generation against hacking threats via multiple interacting scripts",
     ],
     tags: ["JavaScript", "Game Jam"],
-    link: "",
+    link: "https://ettran777.itch.io/debt-and-taxes",
   },
 ];
 

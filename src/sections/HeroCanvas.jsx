@@ -53,8 +53,8 @@ function HeroCanvas() {
       const radius = THREE.MathUtils.randFloat(30, 70); // distance from center
       const angle = Math.random() * Math.PI * 2; // starting position around the orbit
       const speed = 0.1;
-      const y = THREE.MathUtils.randFloatSpread(60); 
-      const tilt = THREE.MathUtils.randFloatSpread(0.5); 
+      const y = THREE.MathUtils.randFloatSpread(60);
+      const tilt = THREE.MathUtils.randFloatSpread(0.5);
 
       stars.push({ mesh: star, radius, angle, speed, y, tilt });
 
@@ -67,6 +67,15 @@ function HeroCanvas() {
     }
 
     Array(500).fill().forEach(addStar);
+
+    function handleResize() {
+      const width = window.innerWidth;
+      const height = window.innerHeight;
+      camera.aspect = width / height;
+      camera.updateProjectionMatrix();
+      renderer.setSize(width, height);
+    }
+    window.addEventListener('resize', handleResize);
 
     let animationId;
     function animate() {
@@ -86,6 +95,7 @@ function HeroCanvas() {
 
     return () => {
       cancelAnimationFrame(animationId);
+      window.removeEventListener('resize', handleResize);
       renderer.dispose();
     };
   }, []);
